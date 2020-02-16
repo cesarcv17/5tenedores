@@ -23,7 +23,7 @@ export default function Login(props) {
 
       <Divider style={styles.divider} />
       <View style={styles.viewContainer}>
-        <LoginFacebook />
+        <LoginFacebook toastRef={toastRef} navigation={navigation} />
         <Text>Login Facebook...</Text>
       </View>
       <Toast ref={toastRef} position="center" opacity={(0, 5)} />
